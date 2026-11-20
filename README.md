@@ -75,7 +75,3 @@ The notebooks call the USGS and World Bank APIs directly, so they need an intern
 ## Limitations
 
 The USGS alert is itself the output of a model (PAGER), so predicting it means learning patterns in a prediction, not measuring real damage. Country averages for population density and GDP hide differences inside a country, and the code that pulls a country name out of the USGS place text still misses some names, so 616 of the 701 cleaned earthquakes match a World Bank country. USGS keeps revising shaking and alert values, so a fresh API pull can differ slightly from the saved snapshot. Results are for learning and research only, not for emergency decisions.
-
-## About
-
-Ongoing DS 3000 project at Northeastern University on why earthquakes of the same magnitude cause very different levels of shaking and damage.
