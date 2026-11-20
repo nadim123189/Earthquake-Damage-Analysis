@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Files the notebooks regenerate
+notebooks/earthquakes_clean.csv
+notebooks/earthquakes_2020_2025.csv
+
+# OS
+.DS_Store
